@@ -1,0 +1,111 @@
+/* this file is loaded by index.html and styles the page */
+
+
+header {
+  font-family: 'Montserrat', sans-serif;
+/*   text-align: center; */
+}
+
+.myheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#hdiv1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7em;
+}
+
+#hdiv2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 200;
+  display: inline;
+  color: #2a2d7c;
+}
+
+h2 {
+  font-weight: 600;
+  display: inline;
+  color: #c9523d;
+}
+
+h3 {
+  font-weight: 300;
+  color: black;
+  font-size: 1em;
+}
+
+#home {
+  margin-right: 10px;
+}
+
+#visit {
+  margin-right: 10px;
+}
+
+#about {
+  margin-right: 0px;
+}
+
+.ctdndiv {
+  background: black;
+}
+
+ctdn {
+  color: white;
+  font-size: 10em;
+}
+
+
+
+#clockdiv{ 
+  font-family: sans-serif; 
+  color: black; 
+  font-weight: 100; 
+  text-align: center; 
+  font-size: 30px; 
+} 
+#clockdiv div > span{ 
+  padding: 25px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fdiv {
+  padding: 15px;
+  background-color: #c6d2da;
+  background-clip: border-box;
+}
+
+f1 {
+  font-weight: 600;
+  display: block;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+f2 {
+  font-weight: 200;
+  color: black;
+  font-size: 1em;
+}
