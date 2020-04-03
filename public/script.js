@@ -1,5 +1,4 @@
 // Reference: https://www.geeksforgeeks.org/create-countdown-timer-using-javascript/
-
 var deadline = new Date("may 10, 2020 17:00:00").getTime(); 
 var x = setInterval(function() { 
   var now = new Date().getTime(); 
@@ -12,7 +11,7 @@ var x = setInterval(function() {
   }
 }, 1000); 
 
-
+// Reference: https://www.w3schools.com/howto/howto_js_slideshow.asp
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -28,7 +27,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("slide");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
