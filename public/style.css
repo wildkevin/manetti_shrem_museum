@@ -39,7 +39,7 @@ h3 {
   color: black;
 }
 
-countdn {
+.countdn {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
@@ -48,14 +48,50 @@ countdn {
   height: 400px;
 }
 
-countdn > span {
+.countdn > span {
   color: white;
   font-weight: 400; 
   font-size: 150px; 
 }
 
 
-footer {
+mybody {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 1200px;
+}
+
+.title1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+.title2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.main1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.main2 {
+  align-self: flex-start;
+  font-weight: 300;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.myfooter {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
@@ -63,7 +99,7 @@ footer {
   height: 800px;
 }
 
-#foothd {
+.foothd {
   height: 100px;
   margin-left: 30px;
   margin-right: 30px;
@@ -77,7 +113,7 @@ f1 {
   font-size: 2.3em;
 }
 
-#footbdy {
+.footbdy {
   display: flex;
   flex-direction: column;
   align-content: center;
