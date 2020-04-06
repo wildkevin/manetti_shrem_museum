@@ -1,9 +1,6 @@
-/* this file is loaded by index.html and styles the page */
-
 body {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   height: 3400px;
 }
 
@@ -149,7 +146,6 @@ main {
 }
 
 .main1 {
-  /* flex-grow: 1; */
   font-weight: 400;
   font-size: 40px;
   margin-left: 30px;
@@ -157,7 +153,6 @@ main {
 }
 
 .main2 {
-  /* flex-grow: 1; */
   font-weight: 400;
   font-size: 40px;
   margin-left: 30px;
@@ -182,9 +177,6 @@ footer {
 
 .foothd {
   height: 100px;
-}
-
-f1 {
   font-weight: 600;
   color: black;
   font-size: 37px;
@@ -192,9 +184,6 @@ f1 {
 
 .footbdy {
   height: 100px;
-}
-
-f2 {
   font-weight: 200;
   color: black;
   font-size: 35px;
@@ -272,14 +261,10 @@ f2 {
   }
   .foothd {
     height: 30px;
+    font-size: 17px;
   }
   .footbdy {
     height: 50px;
-  }
-  f1 {
-    font-size: 17px;
-  }
-  f2 {
     font-size: 14px;
   }
 }

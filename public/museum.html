@@ -1,16 +1,19 @@
 <!-- This is a static file -->
 <!-- served from your routes in server.js -->
 <!DOCTYPE html>
-<html>
-  <!-- reset the css -->
-  <link rel="stylesheet" href="https://web.cs.ucdavis.edu/~amenta/s20/reset.css">
-  <!-- import the webpage's stylesheet -->
-  <link rel="stylesheet" href="style.css">
-  <!-- used in the header and footer -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap" rel="stylesheet">
-  <!-- used in the main article -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-  
+<html lang="en"> <!-- My text is in English -->
+  <head>
+    <meta charset="utf-8"> <!-- Binary encoding of characters -->
+    <title>Static server</title>
+    <!-- reset the css -->
+    <link rel="stylesheet" href="https://web.cs.ucdavis.edu/~amenta/s20/reset.css">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- used in the header and footer -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap" rel="stylesheet">
+    <!-- used in the main article -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
   <body>
     <header>
       <div class = "headerdiv1">
@@ -35,22 +38,22 @@
       <div class="slideshow">
         <div class="slide">
           <p class = "number">1 / 4</p>
-          <img src="https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2Ffabric.jpg?v=1585695675650" style = "width:100%">
+          <img src="https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2Ffabric.jpg?v=1585695675650" alt = "image1" style = "width:100%">
           <p class = "caption">Stephan Kaltenbach and guests, MODERN DRAPERY, 2020. Felt Fabric, 45 x 60 inches.</p>
         </div>
         <div class = "slide">
           <p class = "number">2 / 4</p>
-          <img src = "https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2FfatherPortrait.jpg?v=1585695645241" style = "width: 100%">
+          <img src = "https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2FfatherPortrait.jpg?v=1585695645241" alt = "image2" style = "width: 100%">
           <p class = "caption">Stephan Kaltenbach, Portrait of My Father, 1972-79. Acrylic on canvas, 114 x 170 3/4 inches.</p>
         </div>
         <div class = "slide">
           <p class = "number">3 / 4</p>
-          <img src = "https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2FroomCube.jpg?v=1585695631109" style = "width: 100%">
+          <img src = "https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2FroomCube.jpg?v=1585695631109" alt = "image3" style = "width: 100%">
           <p class = "caption">Stephan Kaltenbach, Room Cube, 1967. Blueprint, 18 x 24 inches, edition of 10.</p>
         </div>
         <div class = "slide">
           <p class = "number">4 / 4</p>
-          <img src = "https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2FopenAfterDeath.jpg?v=1585695675242" style = "width: 100%">
+          <img src = "https://cdn.glitch.com/14b42f1a-3938-4f20-8734-36e1f48610b6%2FopenAfterDeath.jpg?v=1585695675242" alt = "image4" style = "width: 100%">
           <p class = "caption">Stephan Kaltenbach, OPEN AFTER MY DEATH, 1970. Mild steel, engraved, with unknown contents, 3 x 6 x 3 inches.</p>
         </div>
   
@@ -75,35 +78,35 @@
     <footer>
       <div class = "footdiv">
         <div class = "foothd">
-          <f1>The Manetti Shrem Museum will be temporarily closed starting March 16, 2020</f1>
+          <p>The Manetti Shrem Museum will be temporarily closed starting March 16, 2020</p>
         </div>
         <div class = "footbdy">
-          <f2>This is to prioritize the health and safety of our students, faculty, and the community at large. Thank you for your patience.</f2>
+          <p>This is to prioritize the health and safety of our students, faculty, and the community at large. Thank you for your patience.</p>
         </div>
       </div>
       <div class = "footdiv">
         <div class = "foothd">
-          <f1>Hours</f1>
+          <p>Hours</p>
         </div>
         <div class = "footbdy">
-          <f2>Tuesday, Wednesday, and Friday: Noon-6pm</f2><br>
-          <f2>Thursday: Noon-9pm</f2><br>
-          <f2>Saturday-Sunday: 11am-5pm</f2><br>
-          <f2>Monday: Closed</f2>
+          <p>Tuesday, Wednesday, and Friday: Noon-6pm</p><br>
+          <p>Thursday: Noon-9pm</p><br>
+          <p>Saturday-Sunday: 11am-5pm</p><br>
+          <p>Monday: Closed</p>
         </div>
       </div>
       <div class = "footdiv">
         <div class = "foothd">
-          <f1>manetti shrem museum</f1>
+          <p>manetti shrem museum</p>
         </div>
         <div class = "footbdy">
-          <f2>254 Old Davis Rd. </f2><br>
-          <f2>Davis, CA 95616</f2>
+          <p>254 Old Davis Rd. </p><br>
+          <p>Davis, CA 95616</p>
         </div>
       </div>
     </footer>
+    <!-- import the webpage's client-side javascript file -->
+    <script src="script.js"></script>
   </body>
 
-  <!-- import the webpage's client-side javascript file -->
-  <script src="script.js"></script>
 </html>
