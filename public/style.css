@@ -145,6 +145,16 @@ main {
   background-color: #778a93;
 }
 
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 .main1 {
   font-weight: 400;
   font-size: 40px;
